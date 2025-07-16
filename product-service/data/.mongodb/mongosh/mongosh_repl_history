@@ -1,0 +1,16 @@
+db.system.users.find().forEach(printjson);
+use admin;
+db.getUsers()
+db.createUser({ user: "productuser", pwd: "productpass", roles: [ { role: "readWrite", db: "product-service" }, { role: "dbAdmin", db: "product-service" }] })
+db.dropUser("productuser")
+use product-service
+db.products.deleteOne({name: "Test Product"})
+db.products.find()
+db.products.insertOne({name: "Test Product", price: 10.99})
+use product-service
+db.getUsers()
+// Verify the user was created
+db.createUser({ user: "productuser", pwd: "productpass", roles: [ { role: "readWrite", db: "product-service" }] })
+// Create a dedicated user for this database
+db.createCollection('products')
+use product-serviceice
