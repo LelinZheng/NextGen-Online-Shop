@@ -1,0 +1,2 @@
+# ignore real credentials everywhere
+**/src/main/resources/application.properties
