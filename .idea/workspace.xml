@@ -1,7 +1,46 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="47dd74d4-b411-464b-94b8-4e80bcb6299b" name="Changes" comment="" />
+    <list default="true" id="47dd74d4-b411-464b-94b8-4e80bcb6299b" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/inventory-service/src/main/java/com/techie/microservices/inventory/config/OpenAPIConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order-service/src/main/java/com/techie/microservices/order/config/OpenAPIConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order-service/src/main/java/com/techie/microservices/order/config/RestClientConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-service/src/main/java/com/techie/microservices/product/config/OpenAPIConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/api-gateway/docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/api-gateway/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/src/main/java/com/programming/techie/gateway/config/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/api-gateway/src/main/java/com/programming/techie/gateway/config/SecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/src/main/java/com/programming/techie/gateway/routes/Routes.java" beforeDir="false" afterPath="$PROJECT_DIR$/api-gateway/src/main/java/com/programming/techie/gateway/routes/Routes.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inventory-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/inventory-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inventory-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/inventory-service/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/order-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order-service/src/main/java/com/techie/microservices/order/OrderServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/order-service/src/main/java/com/techie/microservices/order/OrderServiceApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order-service/src/main/java/com/techie/microservices/order/client/InventoryClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/order-service/src/main/java/com/techie/microservices/order/client/InventoryClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/product-service/data/WiredTiger" beforeDir="false" afterPath="$PROJECT_DIR$/product-service/data/WiredTiger" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/product-service/data/WiredTiger.lock" beforeDir="false" afterPath="$PROJECT_DIR$/product-service/data/WiredTiger.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/product-service/data/WiredTiger.turtle" beforeDir="false" afterPath="$PROJECT_DIR$/product-service/data/WiredTiger.turtle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/product-service/data/WiredTiger.wt" beforeDir="false" afterPath="$PROJECT_DIR$/product-service/data/WiredTiger.wt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/product-service/data/WiredTigerHS.wt" beforeDir="false" afterPath="$PROJECT_DIR$/product-service/data/WiredTigerHS.wt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/product-service/data/_mdb_catalog.wt" beforeDir="false" afterPath="$PROJECT_DIR$/product-service/data/_mdb_catalog.wt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/product-service/data/collection-0-7242652318880367889.wt" beforeDir="false" afterPath="$PROJECT_DIR$/product-service/data/collection-0-7242652318880367889.wt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/product-service/data/collection-0-7818924043225299488.wt" beforeDir="false" afterPath="$PROJECT_DIR$/product-service/data/collection-0-7818924043225299488.wt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/product-service/data/collection-2-7818924043225299488.wt" beforeDir="false" afterPath="$PROJECT_DIR$/product-service/data/collection-2-7818924043225299488.wt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/product-service/data/collection-4-7818924043225299488.wt" beforeDir="false" afterPath="$PROJECT_DIR$/product-service/data/collection-4-7818924043225299488.wt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/product-service/data/collection-7-7818924043225299488.wt" beforeDir="false" afterPath="$PROJECT_DIR$/product-service/data/collection-7-7818924043225299488.wt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/product-service/data/index-1-7242652318880367889.wt" beforeDir="false" afterPath="$PROJECT_DIR$/product-service/data/index-1-7242652318880367889.wt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/product-service/data/index-1-7818924043225299488.wt" beforeDir="false" afterPath="$PROJECT_DIR$/product-service/data/index-1-7818924043225299488.wt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/product-service/data/index-3-7818924043225299488.wt" beforeDir="false" afterPath="$PROJECT_DIR$/product-service/data/index-3-7818924043225299488.wt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/product-service/data/index-5-7818924043225299488.wt" beforeDir="false" afterPath="$PROJECT_DIR$/product-service/data/index-5-7818924043225299488.wt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/product-service/data/index-6-7818924043225299488.wt" beforeDir="false" afterPath="$PROJECT_DIR$/product-service/data/index-6-7818924043225299488.wt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/product-service/data/index-8-7818924043225299488.wt" beforeDir="false" afterPath="$PROJECT_DIR$/product-service/data/index-8-7818924043225299488.wt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/product-service/data/index-9-7818924043225299488.wt" beforeDir="false" afterPath="$PROJECT_DIR$/product-service/data/index-9-7818924043225299488.wt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/product-service/data/mongod.lock" beforeDir="false" afterPath="$PROJECT_DIR$/product-service/data/mongod.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/product-service/data/sizeStorer.wt" beforeDir="false" afterPath="$PROJECT_DIR$/product-service/data/sizeStorer.wt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/product-service/data/storage.bson" beforeDir="false" afterPath="$PROJECT_DIR$/product-service/data/storage.bson" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/product-service/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/product-service/docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/product-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/product-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/product-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/product-service/src/main/resources/application.properties" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,25 +52,25 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 6
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
   <component name="ProjectId" id="30DcoxnVuM7GIIoB7H93fgyBqB0" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/Users/lelinzheng/Desktop/Springboot/NextGen-Online-Shop",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/lelinzheng/Desktop/Springboot/NextGen-Online-Shop&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -41,7 +80,11 @@
       <option name="presentableId" value="Default" />
       <updated>1753165762895</updated>
       <workItem from="1753165764588" duration="12000" />
+      <workItem from="1753666844016" duration="208000" />
     </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
 </project>

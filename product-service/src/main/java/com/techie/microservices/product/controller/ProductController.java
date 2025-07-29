@@ -28,6 +28,12 @@ public class ProductController {
   @GetMapping
   @ResponseStatus(HttpStatus.OK)
   public List<ProductResponse> getAllProducts(){
+//    try{
+//      Thread.sleep(50000);
+//    }catch(InterruptedException e){
+//      throw new RuntimeException(e);
+//    }
+
     return productService.getAllProducts();
   }
 
