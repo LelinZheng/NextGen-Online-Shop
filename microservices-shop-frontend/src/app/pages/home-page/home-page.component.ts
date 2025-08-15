@@ -53,8 +53,8 @@ export class HomePageComponent implements OnInit {
 
       const userDetails = {
         email: result.userData.email,
-        firstName: result.userData.firstName,
-        lastName: result.userData.lastName
+        firstName: result.userData.firstName ?? result.userData.given_name ?? result.userData['first_name'] ?? '',
+        lastName:  result.userData.lastName  ?? result.userData.family_name ?? result.userData['last_name']  ?? '',
       };
       console.log('Final userDetails:', JSON.stringify(userDetails, null, 2));
       console.log('Extracted user details:', userDetails);
