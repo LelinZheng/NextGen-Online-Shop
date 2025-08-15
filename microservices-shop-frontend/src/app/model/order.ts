@@ -4,7 +4,7 @@ export interface Order {
   skuCode: string;
   price: number;
   quantity: number;
-  // userDetails: UserDetails
+  userDetails: UserDetails
 }
 
 export interface UserDetails {

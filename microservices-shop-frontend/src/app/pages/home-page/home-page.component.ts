@@ -51,13 +51,13 @@ export class HomePageComponent implements OnInit {
 
     this.oidcSecurityService.userData$.subscribe(result => {
 
-      // const userDetails = {
-      //   email: result.userData.email,
-      //   firstName: result.userData.firstName,
-      //   lastName: result.userData.lastName
-      // };
-      // console.log('Final userDetails:', JSON.stringify(userDetails, null, 2));
-      // console.log('Extracted user details:', userDetails);
+      const userDetails = {
+        email: result.userData.email,
+        firstName: result.userData.firstName,
+        lastName: result.userData.lastName
+      };
+      console.log('Final userDetails:', JSON.stringify(userDetails, null, 2));
+      console.log('Extracted user details:', userDetails);
 
       if(!quantity) {
         this.orderFailed = true;
@@ -68,7 +68,7 @@ export class HomePageComponent implements OnInit {
           skuCode: product.skuCode,
           price: product.price,
           quantity: Number(quantity),
-          // userDetails: userDetails
+          userDetails: userDetails,
         }
 
         console.log('Order object being sent:', JSON.stringify(order, null, 2)); // ✅ Debug log
