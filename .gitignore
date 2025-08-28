@@ -1,3 +1,4 @@
 # ignore real credentials everywhere
 **/src/main/resources/application.properties
-product-service/data/
+product-service/data/order
+.env

@@ -1,45 +1,127 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="47dd74d4-b411-464b-94b8-4e80bcb6299b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/inventory-service/src/main/java/com/techie/microservices/inventory/config/OpenAPIConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order-service/src/main/java/com/techie/microservices/order/config/OpenAPIConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order-service/src/main/java/com/techie/microservices/order/config/RestClientConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/product-service/src/main/java/com/techie/microservices/product/config/OpenAPIConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/data/tempo/blocks/single-tenant/4194f5b7-f878-4f76-ac88-0628800f118e/bloom-0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/data/tempo/blocks/single-tenant/4194f5b7-f878-4f76-ac88-0628800f118e/data.parquet" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/data/tempo/blocks/single-tenant/4194f5b7-f878-4f76-ac88-0628800f118e/meta.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker/mysql/init.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/.dockerignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/app/shared/header/header.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/k8s/kind/create-kind-cluster.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/k8s/kind/kind-config.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/k8s/manifests/applications/api-gateway.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/k8s/manifests/applications/common-config.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/k8s/manifests/applications/frontend.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/k8s/manifests/applications/inventory-service.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/k8s/manifests/applications/notification-service.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/k8s/manifests/applications/order-service.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/k8s/manifests/applications/product-service.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/k8s/manifests/infrastructure/grafana.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/k8s/manifests/infrastructure/kafka-mysql.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/k8s/manifests/infrastructure/kafka-ui.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/k8s/manifests/infrastructure/kafka.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/k8s/manifests/infrastructure/keycloak.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/k8s/manifests/infrastructure/loki.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/k8s/manifests/infrastructure/mongodb.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/k8s/manifests/infrastructure/prometheus.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/k8s/manifests/infrastructure/schema-registry.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/k8s/manifests/infrastructure/tempo.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/k8s/manifests/infrastructure/zookeeper.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-gateway/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/api-gateway/docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/NextGen-Online-Shop.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/data/tempo/blocks/single-tenant/5f3d6f41-83cd-4dab-bece-019dc47d7e01/bloom-0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/data/tempo/blocks/single-tenant/5f3d6f41-83cd-4dab-bece-019dc47d7e01/data.parquet" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/data/tempo/blocks/single-tenant/5f3d6f41-83cd-4dab-bece-019dc47d7e01/meta.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/data/tempo/blocks/single-tenant/index.json.gz" beforeDir="false" afterPath="$PROJECT_DIR$/api-gateway/data/tempo/blocks/single-tenant/index.json.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/docker/grafana/dashboard.json" beforeDir="false" afterPath="$PROJECT_DIR$/docker/grafana/dashboard.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/docker/grafana/datasource.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker/grafana/datasource.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/docker/keycloak/realms/realm-export.json" beforeDir="false" afterPath="$PROJECT_DIR$/docker/keycloak/realms/realm-export.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/docker/prometheus/prometheus.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker/prometheus/prometheus.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/docker/tempo/tempo.yml" beforeDir="false" afterPath="$PROJECT_DIR$/docker/tempo/tempo.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/api-gateway/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/api-gateway/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-gateway/src/main/java/com/programming/techie/gateway/config/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/api-gateway/src/main/java/com/programming/techie/gateway/config/SecurityConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/api-gateway/src/main/java/com/programming/techie/gateway/routes/Routes.java" beforeDir="false" afterPath="$PROJECT_DIR$/api-gateway/src/main/java/com/programming/techie/gateway/routes/Routes.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/src/main/resources/logback-spring.xml" beforeDir="false" afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/logback-spring.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/volume-data/mysql_keycloak_data/#innodb_temp/temp_1.ibt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/volume-data/mysql_keycloak_data/#innodb_temp/temp_10.ibt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/volume-data/mysql_keycloak_data/#innodb_temp/temp_2.ibt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/volume-data/mysql_keycloak_data/#innodb_temp/temp_3.ibt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/volume-data/mysql_keycloak_data/#innodb_temp/temp_4.ibt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/volume-data/mysql_keycloak_data/#innodb_temp/temp_5.ibt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/volume-data/mysql_keycloak_data/#innodb_temp/temp_6.ibt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/volume-data/mysql_keycloak_data/#innodb_temp/temp_7.ibt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/volume-data/mysql_keycloak_data/#innodb_temp/temp_8.ibt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/volume-data/mysql_keycloak_data/#innodb_temp/temp_9.ibt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/volume-data/mysql_keycloak_data/binlog.000003" beforeDir="false" afterPath="$PROJECT_DIR$/api-gateway/volume-data/mysql_keycloak_data/binlog.000003" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/volume-data/mysql_keycloak_data/ib_buffer_pool" beforeDir="false" afterPath="$PROJECT_DIR$/api-gateway/volume-data/mysql_keycloak_data/ib_buffer_pool" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/volume-data/mysql_keycloak_data/ibdata1" beforeDir="false" afterPath="$PROJECT_DIR$/api-gateway/volume-data/mysql_keycloak_data/ibdata1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-gateway/volume-data/mysql_keycloak_data/ibtmp1" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/inventory-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/inventory-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/inventory-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/inventory-service/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inventory-service/src/main/java/com/techie/microservices/inventory/controller/InventoryController.java" beforeDir="false" afterPath="$PROJECT_DIR$/inventory-service/src/main/java/com/techie/microservices/inventory/controller/InventoryController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inventory-service/src/main/resources/logback-spring.xml" beforeDir="false" afterPath="$PROJECT_DIR$/inventory-service/src/main/resources/logback-spring.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservices-shop-frontend/.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/.editorconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservices-shop-frontend/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservices-shop-frontend/.vscode/extensions.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/.vscode/extensions.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservices-shop-frontend/.vscode/launch.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/.vscode/launch.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservices-shop-frontend/.vscode/tasks.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/.vscode/tasks.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservices-shop-frontend/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservices-shop-frontend/angular.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/angular.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservices-shop-frontend/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservices-shop-frontend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservices-shop-frontend/postcss.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/postcss.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservices-shop-frontend/public/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/public/favicon.ico" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservices-shop-frontend/src/app/app.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservices-shop-frontend/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/app/app.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservices-shop-frontend/src/app/app.component.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/app/app.component.spec.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservices-shop-frontend/src/app/app.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/app/app.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservices-shop-frontend/src/app/app.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/app/app.config.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservices-shop-frontend/src/app/app.routes.ts" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/app/app.routes.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservices-shop-frontend/src/app/config/auth.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/app/config/auth.config.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservices-shop-frontend/src/app/interceptor/auth.interceptor.ts" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/app/interceptor/auth.interceptor.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservices-shop-frontend/src/app/model/order.ts" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/app/model/order.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservices-shop-frontend/src/app/model/product.ts" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/app/model/product.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservices-shop-frontend/src/app/pages/add-product/add-product.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/app/app.component.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservices-shop-frontend/src/app/pages/add-product/add-product.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/app/pages/add-product/add-product.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservices-shop-frontend/src/app/pages/add-product/add-product.component.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/app/pages/add-product/add-product.component.spec.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservices-shop-frontend/src/app/pages/add-product/add-product.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/app/pages/add-product/add-product.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservices-shop-frontend/src/app/pages/home-page/home-page.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/app/pages/add-product/add-product.component.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservices-shop-frontend/src/app/pages/home-page/home-page.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/app/pages/home-page/home-page.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservices-shop-frontend/src/app/pages/home-page/home-page.component.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/app/pages/home-page/home-page.component.spec.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservices-shop-frontend/src/app/pages/home-page/home-page.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/app/pages/home-page/home-page.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservices-shop-frontend/src/app/services/order/order.service.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/app/services/order/order.service.spec.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservices-shop-frontend/src/app/services/order/order.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/app/services/order/order.service.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservices-shop-frontend/src/app/services/product/product.service.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/app/services/product/product.service.spec.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservices-shop-frontend/src/app/services/product/product.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/app/services/product/product.service.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservices-shop-frontend/src/app/shared/header/header.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/app/pages/home-page/home-page.component.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservices-shop-frontend/src/app/shared/header/header.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/app/shared/header/header.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservices-shop-frontend/src/app/shared/header/header.component.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/app/shared/header/header.component.spec.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservices-shop-frontend/src/app/shared/header/header.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/app/shared/header/header.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservices-shop-frontend/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservices-shop-frontend/src/main.ts" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/main.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservices-shop-frontend/src/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservices-shop-frontend/tailwind.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/tailwind.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservices-shop-frontend/tsconfig.app.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/tsconfig.app.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservices-shop-frontend/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/tsconfig.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservices-shop-frontend/tsconfig.spec.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/tsconfig.spec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/notification-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/notification-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/notification-service/src/main/java/com/techie/microservices/order/event/OrderPlacedEvent.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/notification-service/src/main/resources/logback-spring.xml" beforeDir="false" afterPath="$PROJECT_DIR$/notification-service/src/main/resources/logback-spring.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/notification-service/src/test/java/com/techie/microservices/notification/TestcontainersConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/notification-service/src/test/java/com/techie/microservices/notification/TestcontainersConfiguration.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/order-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/order-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/order-service/src/main/java/com/techie/microservices/order/OrderServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/order-service/src/main/java/com/techie/microservices/order/OrderServiceApplication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/order-service/src/main/java/com/techie/microservices/order/client/InventoryClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/order-service/src/main/java/com/techie/microservices/order/client/InventoryClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product-service/data/WiredTiger" beforeDir="false" afterPath="$PROJECT_DIR$/product-service/data/WiredTiger" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product-service/data/WiredTiger.lock" beforeDir="false" afterPath="$PROJECT_DIR$/product-service/data/WiredTiger.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product-service/data/WiredTiger.turtle" beforeDir="false" afterPath="$PROJECT_DIR$/product-service/data/WiredTiger.turtle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product-service/data/WiredTiger.wt" beforeDir="false" afterPath="$PROJECT_DIR$/product-service/data/WiredTiger.wt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product-service/data/WiredTigerHS.wt" beforeDir="false" afterPath="$PROJECT_DIR$/product-service/data/WiredTigerHS.wt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product-service/data/_mdb_catalog.wt" beforeDir="false" afterPath="$PROJECT_DIR$/product-service/data/_mdb_catalog.wt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product-service/data/collection-0-7242652318880367889.wt" beforeDir="false" afterPath="$PROJECT_DIR$/product-service/data/collection-0-7242652318880367889.wt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product-service/data/collection-0-7818924043225299488.wt" beforeDir="false" afterPath="$PROJECT_DIR$/product-service/data/collection-0-7818924043225299488.wt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product-service/data/collection-2-7818924043225299488.wt" beforeDir="false" afterPath="$PROJECT_DIR$/product-service/data/collection-2-7818924043225299488.wt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product-service/data/collection-4-7818924043225299488.wt" beforeDir="false" afterPath="$PROJECT_DIR$/product-service/data/collection-4-7818924043225299488.wt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product-service/data/collection-7-7818924043225299488.wt" beforeDir="false" afterPath="$PROJECT_DIR$/product-service/data/collection-7-7818924043225299488.wt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product-service/data/index-1-7242652318880367889.wt" beforeDir="false" afterPath="$PROJECT_DIR$/product-service/data/index-1-7242652318880367889.wt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product-service/data/index-1-7818924043225299488.wt" beforeDir="false" afterPath="$PROJECT_DIR$/product-service/data/index-1-7818924043225299488.wt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product-service/data/index-3-7818924043225299488.wt" beforeDir="false" afterPath="$PROJECT_DIR$/product-service/data/index-3-7818924043225299488.wt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product-service/data/index-5-7818924043225299488.wt" beforeDir="false" afterPath="$PROJECT_DIR$/product-service/data/index-5-7818924043225299488.wt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product-service/data/index-6-7818924043225299488.wt" beforeDir="false" afterPath="$PROJECT_DIR$/product-service/data/index-6-7818924043225299488.wt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product-service/data/index-8-7818924043225299488.wt" beforeDir="false" afterPath="$PROJECT_DIR$/product-service/data/index-8-7818924043225299488.wt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product-service/data/index-9-7818924043225299488.wt" beforeDir="false" afterPath="$PROJECT_DIR$/product-service/data/index-9-7818924043225299488.wt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product-service/data/mongod.lock" beforeDir="false" afterPath="$PROJECT_DIR$/product-service/data/mongod.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product-service/data/sizeStorer.wt" beforeDir="false" afterPath="$PROJECT_DIR$/product-service/data/sizeStorer.wt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product-service/data/storage.bson" beforeDir="false" afterPath="$PROJECT_DIR$/product-service/data/storage.bson" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product-service/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/product-service/docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order-service/src/main/java/com/techie/microservices/order/config/RestClientConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/order-service/src/main/java/com/techie/microservices/order/config/RestClientConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order-service/src/main/resources/logback-spring.xml" beforeDir="false" afterPath="$PROJECT_DIR$/order-service/src/main/resources/logback-spring.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/product-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/product-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/product-service/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/product-service/src/main/resources/logback-spring.xml" beforeDir="false" afterPath="$PROJECT_DIR$/product-service/src/main/resources/logback-spring.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,6 +131,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="KubernetesApiProvider">{
+  &quot;isMigrated&quot;: true
+}</component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -56,21 +141,100 @@
   &quot;associatedIndex&quot;: 6
 }</component>
   <component name="ProjectId" id="30DcoxnVuM7GIIoB7H93fgyBqB0" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/lelinzheng/Desktop/Springboot/NextGen-Online-Shop&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Maven.spring-boot-3-microservices [clean...].executor": "Run",
+    "Maven.spring-boot-3-microservices [clean].executor": "Run",
+    "Maven.spring-boot-3-microservices [org.springframework.boot:spring-boot-maven-plugin:3.2.4:build-image].executor": "Run",
+    "Maven.spring-boot-3-microservices [spring-boot:build-image...].executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/Users/lelinzheng/Developer/NextGen-Online-Shop",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "run.configurations.included.in.services": "true",
+    "settings.editor.selected.configurable": "settings.sync",
+    "ts.external.directory.path": "/Users/lelinzheng/Developer/NextGen-Online-Shop/frontend/node_modules/typescript/lib",
+    "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql"
+    ]
   }
-}</component>
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/k8s" />
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="mvn clean verify" />
+      <command value="mvn clean compile" />
+      <command value="mvn clean" />
+      <command value="mvn spring-boot:build-image -DskipTests" />
+    </option>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="MicronautRunConfigurationType" />
+        <option value="QuarkusRunConfigurationType" />
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.ApiGatewayApplication">
+    <configuration name="ApiGatewayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="api-gateway" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.programming.techie.gateway.ApiGatewayApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="InventoryServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="inventory-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.techie.microservices.inventory.InventoryServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NotificationServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="notification-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.techie.microservices.notification.NotificationServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OrderServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="order-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.techie.microservices.order.OrderServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProductServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="product-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.techie.microservices.product.ProductServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -81,6 +245,9 @@
       <updated>1753165762895</updated>
       <workItem from="1753165764588" duration="12000" />
       <workItem from="1753666844016" duration="208000" />
+      <workItem from="1755732884565" duration="9106000" />
+      <workItem from="1755839016480" duration="23661000" />
+      <workItem from="1756314431753" duration="10268000" />
     </task>
     <servers />
   </component>
